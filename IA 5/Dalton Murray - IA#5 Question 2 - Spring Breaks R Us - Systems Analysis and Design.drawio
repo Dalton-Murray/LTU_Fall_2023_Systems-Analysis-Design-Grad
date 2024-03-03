@@ -1,0 +1,133 @@
+<mxfile host="Electron" modified="2023-09-30T22:26:26.825Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/21.7.5 Chrome/114.0.5735.289 Electron/25.8.1 Safari/537.36" etag="Cf1oMrIKUTJqulvmSXJd" version="21.7.5" type="device">
+  <diagram name="Page-1" id="ByE_iyZ5ZZ_60SZ4c1Ou">
+    <mxGraphModel dx="1430" dy="825" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="tNAryLB2EY18mSy2vOBF-1" value="Student" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" parent="1" vertex="1">
+          <mxGeometry x="160" y="160" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tNAryLB2EY18mSy2vOBF-2" value=":System" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="470" y="160" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tNAryLB2EY18mSy2vOBF-4" value="" style="endArrow=none;dashed=1;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="175" y="890" as="sourcePoint" />
+            <mxPoint x="174.67" y="250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tNAryLB2EY18mSy2vOBF-5" value="" style="endArrow=none;dashed=1;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="530" y="900" as="sourcePoint" />
+            <mxPoint x="529.6700000000001" y="240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SNqVZCBD6pWwihI5avez-1" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="180" y="258" width="350" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="tNAryLB2EY18mSy2vOBF-6" value="" style="endArrow=classic;html=1;rounded=0;" parent="SNqVZCBD6pWwihI5avez-1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint y="32" as="sourcePoint" />
+            <mxPoint x="350" y="32" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tNAryLB2EY18mSy2vOBF-7" value="findBrowseResorts(filters)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="SNqVZCBD6pWwihI5avez-1" vertex="1">
+          <mxGeometry x="90" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="tNAryLB2EY18mSy2vOBF-8" value="" style="endArrow=classic;html=1;rounded=0;dashed=1;" parent="SNqVZCBD6pWwihI5avez-1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="340" y="52" as="sourcePoint" />
+            <mxPoint y="52" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tNAryLB2EY18mSy2vOBF-9" value="List of resorts" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="SNqVZCBD6pWwihI5avez-1" vertex="1">
+          <mxGeometry x="120" y="50" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="SNqVZCBD6pWwihI5avez-2" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="180" y="360" width="350" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="SNqVZCBD6pWwihI5avez-3" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="SNqVZCBD6pWwihI5avez-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint y="32" as="sourcePoint" />
+            <mxPoint x="350" y="32" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SNqVZCBD6pWwihI5avez-4" value="resortDetails(name)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="SNqVZCBD6pWwihI5avez-2">
+          <mxGeometry x="105" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="SNqVZCBD6pWwihI5avez-5" value="" style="endArrow=classic;html=1;rounded=0;dashed=1;" edge="1" parent="SNqVZCBD6pWwihI5avez-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="340" y="52" as="sourcePoint" />
+            <mxPoint y="52" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SNqVZCBD6pWwihI5avez-6" value="Shows the details of the resort" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="SNqVZCBD6pWwihI5avez-2">
+          <mxGeometry x="80" y="50" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="SNqVZCBD6pWwihI5avez-9" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="180" y="600" width="365" height="95" as="geometry" />
+        </mxCell>
+        <mxCell id="SNqVZCBD6pWwihI5avez-10" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="SNqVZCBD6pWwihI5avez-9">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint y="32" as="sourcePoint" />
+            <mxPoint x="350" y="32" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SNqVZCBD6pWwihI5avez-11" value="requestReservation(name, dates, rooms, type, packages, suites)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="SNqVZCBD6pWwihI5avez-9">
+          <mxGeometry x="-15" width="370" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="SNqVZCBD6pWwihI5avez-12" value="" style="endArrow=classic;html=1;rounded=0;dashed=1;" edge="1" parent="SNqVZCBD6pWwihI5avez-9">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="340" y="52" as="sourcePoint" />
+            <mxPoint y="52" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SNqVZCBD6pWwihI5avez-15" value="Start the creation of a booking - verifies information in databases, opening, and ensures everything is available, sends confirmation message saying the booking is confirmed with payment information" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="SNqVZCBD6pWwihI5avez-9">
+          <mxGeometry x="10" y="65" width="330" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="SNqVZCBD6pWwihI5avez-16" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="180" y="480" width="365" height="95" as="geometry" />
+        </mxCell>
+        <mxCell id="SNqVZCBD6pWwihI5avez-17" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="SNqVZCBD6pWwihI5avez-16">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint y="32" as="sourcePoint" />
+            <mxPoint x="350" y="32" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SNqVZCBD6pWwihI5avez-18" value="checkAvailabilities(name)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="SNqVZCBD6pWwihI5avez-16">
+          <mxGeometry x="90" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="SNqVZCBD6pWwihI5avez-19" value="" style="endArrow=classic;html=1;rounded=0;dashed=1;" edge="1" parent="SNqVZCBD6pWwihI5avez-16">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="340" y="52" as="sourcePoint" />
+            <mxPoint y="52" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SNqVZCBD6pWwihI5avez-20" value="Show availability details, check in/out time, dates and rooms available" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="SNqVZCBD6pWwihI5avez-16">
+          <mxGeometry x="10" y="65" width="330" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="SNqVZCBD6pWwihI5avez-22" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="185" y="740" width="365" height="95" as="geometry" />
+        </mxCell>
+        <mxCell id="SNqVZCBD6pWwihI5avez-23" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="SNqVZCBD6pWwihI5avez-22">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint y="32" as="sourcePoint" />
+            <mxPoint x="350" y="32" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SNqVZCBD6pWwihI5avez-24" value="sendPayment(name, address, phone number, card details)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="SNqVZCBD6pWwihI5avez-22">
+          <mxGeometry width="340" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="SNqVZCBD6pWwihI5avez-25" value="" style="endArrow=classic;html=1;rounded=0;dashed=1;" edge="1" parent="SNqVZCBD6pWwihI5avez-22">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="340" y="52" as="sourcePoint" />
+            <mxPoint y="52" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SNqVZCBD6pWwihI5avez-26" value="Verify payment, create transaction, display and send confirmation or failure message" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="SNqVZCBD6pWwihI5avez-22">
+          <mxGeometry x="10" y="65" width="330" height="25" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

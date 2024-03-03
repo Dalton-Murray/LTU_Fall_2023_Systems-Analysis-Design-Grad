@@ -1,0 +1,6 @@
+Employee ID,firstName,lastName,Week,billableHours,hourlyRate,calculatedAmount
+1001,Arioald,Bart,11/24/2023 - 12/01/2023,40,$20 ,$800.00 
+1005,Frank,Britton,11/24/2023 - 12/01/2023,43,$25 ,"$1,075.00 "
+1006,Cameron,Davis,11/24/2023 - 12/01/2023,50,$22.66 ,"$1,133.00 "
+1007,Ben,Gaba,11/24/2023 - 12/01/2023,40,$49.28 ,"$1,971.20 "
+1010,Eve,Rood,11/24/2023 - 12/01/2023,39.5,$58.42 ,"$2,307.59 "
